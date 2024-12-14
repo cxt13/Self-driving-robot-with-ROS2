@@ -1,0 +1,36 @@
+[0.331s] Invoking command in '/home/cxt13/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cxt13/bumperbot_ws/build/bumperbot_description -- -j2 -l2
+[1.431s] Invoked command in '/home/cxt13/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cxt13/bumperbot_ws/build/bumperbot_description -- -j2 -l2
+[10.323s] Invoking command in '/home/cxt13/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cxt13/bumperbot_ws/build/bumperbot_description
+[10.569s] -- Install configuration: ""
+[10.594s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes
+[10.594s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/base_link.STL
+[10.595s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_front_link.STL
+[10.595s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_rear_link.STL
+[10.607s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_right_link.STL
+[10.608s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/can.STL
+[10.624s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/imu_link.STL
+[10.637s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_left_link.STL
+[10.646s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf
+[10.647s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.urdf.xacro
+[10.647s] -- Installing: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_gazebo.xacro
+[10.648s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch
+[10.648s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/gazebo.launch.py
+[10.661s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/display.launch.py
+[10.661s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz
+[10.662s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz/display.rviz
+[10.683s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description
+[10.684s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description
+[10.684s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.sh
+[10.706s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.dsv
+[10.709s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.sh
+[10.710s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.dsv
+[10.713s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.bash
+[10.719s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.sh
+[10.720s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.zsh
+[10.720s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.dsv
+[10.720s] -- Installing: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv
+[10.720s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/packages/bumperbot_description
+[10.721s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig.cmake
+[10.721s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig-version.cmake
+[10.721s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.xml
+[10.826s] Invoked command in '/home/cxt13/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cxt13/bumperbot_ws/build/bumperbot_description

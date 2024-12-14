@@ -1,26 +1,30 @@
 import os
 from pathlib import Path
-
 from launch import LaunchDescription
 from launch_ros.actions import Node
-from launch.actions import DeclareLaunchArgument, SetEnvironmentVariable, IncludeLaunchDescription  # Corrected import
-
+from launch.actions import DeclareLaunchArgument, SetEnvironmentVariable, IncludeLaunchDescription
 from ament_index_python.packages import get_package_share_directory
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.parameter_descriptions import ParameterValue
-from launch.substitutions import Command, LaunchConfiguration  # Corrected import
+from launch.substitutions import Command, LaunchConfiguration
 
 def generate_launch_description():
     bumperbot_description_dir = get_package_share_directory("bumperbot_description")
+    ros_distro = os.environ["ROS_DISTRO"]
+    is_ignition = "True" if ros_distro == "jazzy" else "False"
 
     model_arg = DeclareLaunchArgument(
         name="model",
-        default_value=os.path.join(bumperbot_description_dir, "urdf", "bumperbot.urdf.xacro"),  # Simplified path handling
+        default_value=os.path.join(bumperbot_description_dir, "urdf", "bumperbot.urdf.xacro"),
         description="Absolute path to robot URDF file"
     )
 
-    robot_description = ParameterValue(
-        Command(["xacro ", LaunchConfiguration("model")]),
+    robot_description = ParameterValue(Command([
+        "xacro ",
+        LaunchConfiguration("model"),
+        " is_ignition:=",  # Added space before is_ignition:=
+        is_ignition
+        ]),
         value_type=str
     )
 
@@ -32,15 +36,15 @@ def generate_launch_description():
 
     gazebo_resource_path = SetEnvironmentVariable(
         name="GZ_SIM_RESOURCE_PATH",
-        value=[str(Path(bumperbot_description_dir).parent.resolve())]  # Fixed path handling
+        value=[str(Path(bumperbot_description_dir).parent.resolve())]  # Fixed missing closing parenthesis
     )
 
     gazebo = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
-            os.path.join(get_package_share_directory("ros_gz_sim"), "launch", "gz_sim.launch.py")  # Corrected path and arguments
+            os.path.join(get_package_share_directory("ros_gz_sim"), "launch", "gz_sim.launch.py")
         ]),
         launch_arguments=[
-            ("gz_args", [" --render-engine ogre -v 4 -r empty.sdf "])  # Fixed argument formatting
+            ("gz_args", ["--render-engine ogre -v 4 -r empty.sdf"])  # Fixed argument formatting
         ]
     )
 
