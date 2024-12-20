@@ -45,6 +45,7 @@ def generate_launch_description():
         ]),
         launch_arguments=[
             ("gz_args", ["--render-engine ogre -v 4 -r empty.sdf"])  # Fixed argument formatting
+            
         ]
     )
 
