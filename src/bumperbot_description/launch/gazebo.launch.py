@@ -44,7 +44,8 @@ def generate_launch_description():
             os.path.join(get_package_share_directory("ros_gz_sim"), "launch", "gz_sim.launch.py")
         ]),
         launch_arguments=[
-            ("gz_args", ["--render-engine ogre -v 4 -r empty.sdf"])  # Fixed argument formatting
+            #("gz_args", ["--render-engine ogre -v 4 -r empty.sdf"])  
+            ("gz_args", [" -v 4", " -r", " empty.sdf"]) 
             
         ]
     )

@@ -1,0 +1,34 @@
+[0.061s] Invoking command in '/home/cxt13/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cxt13/bumperbot_ws/build/bumperbot_controller -- -j2 -l2
+[0.275s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.125s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.504s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.504s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.510s] -- Added test 'lint_cmake' to check CMake code style
+[1.513s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.525s] -- Added test 'xmllint' to check XML markup files
+[1.544s] -- Configuring done (1.3s)
+[1.615s] -- Generating done (0.1s)
+[1.637s] -- Build files have been written to: /home/cxt13/bumperbot_ws/build/bumperbot_controller
+[2.584s] Invoked command in '/home/cxt13/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cxt13/bumperbot_ws/build/bumperbot_controller -- -j2 -l2
+[2.589s] Invoking command in '/home/cxt13/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cxt13/bumperbot_ws/build/bumperbot_controller
+[2.651s] -- Install configuration: ""
+[2.651s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[2.652s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[2.652s] -- Installing: /home/cxt13/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[2.656s] -- Installing: /home/cxt13/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[2.657s] -- Installing: /home/cxt13/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[2.657s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[2.657s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[2.657s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[2.664s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[2.664s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[2.664s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[2.666s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[2.666s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[2.667s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[2.667s] -- Installing: /home/cxt13/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[2.683s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[2.683s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[2.683s] -- Up-to-date: /home/cxt13/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[2.683s] -- Installing: /home/cxt13/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[2.684s] Invoked command in '/home/cxt13/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cxt13/bumperbot_ws/build/bumperbot_controller
